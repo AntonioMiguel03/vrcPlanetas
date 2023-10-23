@@ -1,0 +1,164 @@
+body {
+  background: #FFF1D6 url(../img/fundo.png);
+  background-size: cover;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+    sans-serif;
+  line-height: 1.5;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+article {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-color: #CCC #999 #999 #CCC;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+article p {
+  text-align: justify;
+}
+
+
+article h2 {
+  border-bottom: 1px dashed #7E9F19;
+  margin: 0;
+}
+
+article img {
+  border: 1px solid #7E9F19;
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 2px;
+  width: 160px;
+  height: 160px;
+}
+
+article a {
+  color: #2C88A7;
+  font-weight: bold;
+}
+
+header h1 {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 250px;
+}
+
+header h1 a:hover {
+  background-color: #7E9F19;
+  color: #FFF;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+section {
+  float: left;
+  width: 80%;
+}
+
+aside {
+  background-color: #FFFBE4;
+  border: 1px solid #C9BC8F;
+  padding: 10px;
+  float: right;
+  position: fixed;
+  margin-left: 50%;
+  width: 260px;
+}
+
+aside h3 {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+aside ol {
+  font-size: 12px;
+}
+
+
+
+ul,
+#myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  color: #37086c;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: black;
+  font-weight: bold;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.nested {
+  display: none;
+}
+
+details a {
+  text-decoration: none;
+  color: blue;
+}
+
+.active {
+  display: block;
+}
+
+.cor {
+  color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  aside {
+    display: none;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  article img {
+    width: 40%;
+    height: 40%;
+  }
+}
